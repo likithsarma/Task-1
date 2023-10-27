@@ -1,0 +1,27 @@
+*{
+    font-size: xx-large;
+}
+h1{
+    font-size: 48px;
+    text-align: center;
+}
+#container{
+    padding: 0 30%;
+    margin-top: 10%;
+}
+#main{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 25px;
+}
+textarea{
+    width: 90%;
+    margin: 0 5%;
+}
+p{
+    padding-left: 5%;
+}
+@media only screen and (max-width: 800px) {
+    #container{
+        padding: 0 0;
+    }
+  }
